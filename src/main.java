@@ -17,9 +17,11 @@ public class main {
     System.out.println("Tag 3 Ende. \n__________________________ ");
 
     //tag4_zahlen_sortieren
-    int[] zahlen = {1,5,6,8,2,9,3,4,10};
+    int[] zahlen = {1,5,6,8,2,9,3,4,10,7};
 
     tag4_zahlen_sortieren.zahlenSortieren(zahlen);
+
+    tag7_weihnachtsbaum.drawTree(10);
 
   }
 }

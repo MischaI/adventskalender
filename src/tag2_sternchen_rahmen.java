@@ -51,8 +51,7 @@ final class tag2_sternchen_rahmen {
     }
     // ende Boden zeichnen
 
-    System.out.println();
-    System.out.println("Tag 2 Ende. \n__________________________ ");
+    System.out.println("\nTag 2 Ende. \n__________________________ ");
 
   }
 
