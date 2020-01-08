@@ -1,6 +1,10 @@
 final class tag3_Palindrome {
 
-  public static void isPalindrome(String wort){
+  private tag3_Palindrome() {
+  }
+
+
+  public static boolean isPalindrome(String wort){
 
     System.out.println("Tag 3 Anfang");
 
@@ -12,12 +16,6 @@ final class tag3_Palindrome {
       palindrome.append(wort.charAt(i));
     }
 
-    if(wort.equalsIgnoreCase(palindrome.toString())){
-      System.out.println("True");
-    }else{
-      System.out.println("False");
-    }
-
-    System.out.println("Tag 3 Ende. \n__________________________ ");
+    return wort.equalsIgnoreCase(palindrome.toString());
   }
 }

@@ -1,4 +1,6 @@
 final class tag2_sternchen_rahmen {
+  private tag2_sternchen_rahmen() {
+  }
   /*Der Sternchen-Rahmen
   * Ein Beispiel
   *     ******************
